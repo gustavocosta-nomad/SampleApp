@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		032BA370D0255498FDED7F4F /* libPods-SampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF2367411C406857C534739 /* libPods-SampleApp.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		BE88367DF34E406B14EDBC29 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
-		C25DD9583594C0B77A25DDFB /* Pods_SampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184EB9ACE7A07C77F46BEE85 /* Pods_SampleApp.framework */; };
 		CAEC41BF2B467D7700FCC102 /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEC41BE2B467D7700FCC102 /* PushKit.framework */; };
 		CAEC41C72B46A69400FCC102 /* UJETModule.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEC41C62B46A69400FCC102 /* UJETModule.m */; };
 /* End PBXBuildFile section */
@@ -29,10 +29,10 @@
 		16C46ED42F3B5246006CBA71 /* TwilioStateMachine.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TwilioStateMachine.xcframework; path = Pods/TwilioStateMachine/TwilioStateMachine.xcframework; sourceTree = "<group>"; };
 		16C46ED52F3B5246006CBA71 /* TwilioTwilsockLib.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TwilioTwilsockLib.xcframework; path = Pods/TwilioTwilsockLib/TwilioTwilsockLib.xcframework; sourceTree = "<group>"; };
 		16C46ED62F3B5246006CBA71 /* TwilioVoice.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TwilioVoice.xcframework; path = Pods/TwilioVoice/TwilioVoice.xcframework; sourceTree = "<group>"; };
-		184EB9ACE7A07C77F46BEE85 /* Pods_SampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		313BFD21B598A661C88C95EB /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.release.xcconfig"; path = "Target Support Files/Pods-SampleApp/Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SampleApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EF2367411C406857C534739 /* libPods-SampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAEC41BD2B46774C00FCC102 /* SampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = SampleApp.entitlements; path = SampleApp/SampleApp.entitlements; sourceTree = "<group>"; };
 		CAEC41BE2B467D7700FCC102 /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
 		CAEC41C52B46A69400FCC102 /* UJETModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UJETModule.h; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAEC41BF2B467D7700FCC102 /* PushKit.framework in Frameworks */,
-				C25DD9583594C0B77A25DDFB /* Pods_SampleApp.framework in Frameworks */,
+				032BA370D0255498FDED7F4F /* libPods-SampleApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 				16C46ED02F3B4F75006CBA71 /* UJETKit.xcframework */,
 				CAEC41BE2B467D7700FCC102 /* PushKit.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				184EB9ACE7A07C77F46BEE85 /* Pods_SampleApp.framework */,
+				8EF2367411C406857C534739 /* libPods-SampleApp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -295,7 +295,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 923PKXHJST;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SampleApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
@@ -309,10 +309,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.sample-project";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomadfintech.ccaas.dummy.ios;
 				PRODUCT_NAME = SampleApp;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Dev CCaaS Dummy Profile";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -333,7 +333,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 923PKXHJST;
 				INFOPLIST_FILE = SampleApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -346,10 +346,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.sample-project";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomadfintech.ccaas.dummy.ios;
 				PRODUCT_NAME = SampleApp;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Dev CCaaS Dummy Profile";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
