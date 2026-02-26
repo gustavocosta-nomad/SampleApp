@@ -1,0 +1,6 @@
+ <resources>
+     <dimen name="ujet_title">32sp</dimen>
+     <dimen name="ujet_description">24sp</dimen>
+     <dimen name="ujet_picker_item_text_size">16sp</dimen>
+ </resources>
+ 

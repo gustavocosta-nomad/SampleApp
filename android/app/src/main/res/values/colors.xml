@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="system_message_background_color">#FFCE00</color>
+  <color name="system_message_foreground_color">#FFCE00</color>
+  <color name="consumer_message_foreground_color">#FFCE00</color>
+  <color name="consumer_message_border_color">#FFCE00</color>
+  <color name="consumer_message_background_color">#FFCE00</color>
+  <color name="agent_message_foreground_color">#FFCE00</color>
+  <color name="agent_message_border_color">#FFCE00</color>
+  <color name="agent_message_background_color">#FFCE00</color>
+  <color name="input_bar_border_color">#FFCE00</color>
+  <color name="accent">#FFCE00</color>
+  <color name="quick_reply_color">#FFCE00</color>
+  <color name="white_color">#FFFFFF</color>
+  <color name="black_color">#000000</color>
+</resources>

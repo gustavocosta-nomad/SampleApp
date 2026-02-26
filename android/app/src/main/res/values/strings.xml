@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SampleApp</string>
+    <string name="ujet_greeting_title">SampleApp Customer Support</string>
+    <string name="ujet_greeting_description">How can we help you?</string>
+    <string name="ujet_company_name">SampleApp</string>
+    <string name="ujet_company_key">YOUR_COMPANY_KEY_HERE</string> <!-- Portal > Settings > Developer Settings > Company Key & Secret Code -->
+    <string name="ujet_company_url">YOUR_BASE_URL_HERE</string> <!-- please append /api/v2 at the end -->
+    <string name="ujet_subdomain">YOUR_SUBDOMAIN_HERE</string>
+</resources>
